@@ -30,10 +30,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-m&e5h)y+6scave$l5qm_t4jm=2p239f64%g1g6r_=ch0=zibce'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'rakesh-profile.herokuapp.com/'
+    'rakesh-profile.herokuapp.com',
+    '127.0.0.1'
 ]
 
 
