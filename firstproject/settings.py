@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-m&e5h)y+6scave$l5qm_t4jm=2p239f64%g1g6r_=ch0=zibce
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'rakesh--profile.herokuapp.com',
+    'sticksam.pythonanywhere.com',
     '127.0.0.1'
 ]
 
@@ -53,8 +53,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
